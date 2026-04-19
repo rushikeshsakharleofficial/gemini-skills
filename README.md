@@ -9,7 +9,11 @@ Follow the protocols specific to your operating system to deploy the **Rushikesh
 
 ### 1. Prerequisites (All Platforms)
 - **Node.js**: v20.0.0 or higher.
-- **Gemini CLI**: The latest stable build (v0.40.0+ recommended).
+- **npm**: (Included with Node.js)
+- **Gemini CLI**: Install globally via npm:
+  ```bash
+  npm install -g @google/gemini-cli
+  ```
 
 ### 2. Platform-Specific Deployment
 
@@ -20,7 +24,9 @@ gemini skills install https://github.com/rushikeshsakharleofficial/gemini-skills
 
 # Link extensions (Requires Git Bash or PowerShell)
 git clone https://github.com/rushikeshsakharleofficial/gemini-skills.git
-cd gemini-skills/extensions/gemini-superpowers
+cd gemini-skills
+npm install
+cd extensions/gemini-superpowers
 gemini extensions link .
 ```
 
@@ -31,7 +37,9 @@ gemini skills install https://github.com/rushikeshsakharleofficial/gemini-skills
 
 # Clone and Link Extensions
 git clone https://github.com/rushikeshsakharleofficial/gemini-skills.git
-cd gemini-skills/extensions/gemini-superpowers
+cd gemini-skills
+npm install
+cd extensions/gemini-superpowers
 gemini extensions link .
 ```
 

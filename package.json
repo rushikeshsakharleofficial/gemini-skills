@@ -1,0 +1,21 @@
+{
+  "name": "gemini-skills",
+  "version": "1.0.0",
+  "description": "> **\"For you sir, always.\" — Just A Rather Very Intelligent System.**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rushikeshsakharleofficial/gemini-skills.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rushikeshsakharleofficial/gemini-skills/issues"
+  },
+  "homepage": "https://github.com/rushikeshsakharleofficial/gemini-skills#readme"
+}
