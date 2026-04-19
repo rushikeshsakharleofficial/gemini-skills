@@ -1,7 +1,19 @@
 # 💎 Gemini Master Skills Library (Rushikesh Edition)
 > **"For you sir, always." — Just A Rather Very Intelligent System.**
 
-A consolidated repository of high-performance skills and extensions for the Gemini CLI. This library transforms standard AI turn-based interactions into a proactive, state-aware, and natively interactive **Autonomous Engineering Environment**.
+[![GitHub license](https://img.shields.io/github/license/rushikeshsakharleofficial/gemini-skills)](https://github.com/rushikeshsakharleofficial/gemini-skills/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/rushikeshsakharleofficial/gemini-skills)](https://github.com/rushikeshsakharleofficial/gemini-skills/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/rushikeshsakharleofficial/gemini-skills)](https://github.com/rushikeshsakharleofficial/gemini-skills/issues)
+[![Gemini CLI Compatibility](https://img.shields.io/badge/Gemini%20CLI-0.40.0--nightly-blue)](https://github.com/google/gemini-cli)
+
+A consolidated repository of high-performance skills and extensions for the **Gemini CLI**. This library transforms standard AI interactions into a proactive, state-aware, and natively interactive **Autonomous Engineering Environment** with specialized support for **VirtualBox**, **Python**, and **Windows Administration**.
+
+## 📍 Table of Contents
+- [🛠️ Installation Guide](#️-installation-guide)
+- [🚀 The Core Breakthroughs](#-the-core-breakthroughs)
+- [🗂️ Library Architecture](#️-library-architecture)
+- [📦 VirtualBox Mastery Suite](#-virtualbox-mastery-suite)
+- [🤝 Contributing](#-contributing)
 
 ## 🛠️ Installation Guide
 
@@ -111,6 +123,13 @@ Every capability in this library is **100% Portable**. All 14 skills are pre-pac
 ```bash
 gemini skills install ./dist/<skill-name>.skill --scope user
 ```
+
+## 🤝 Contributing
+Contributions are welcome! If you have a high-performance skill or extension, please follow these steps:
+1. Fork the repository.
+2. Create a new branch for your feature.
+3. Ensure your `SKILL.md` follows the architectural standards in `skills/jarvis-core`.
+4. Submit a Pull Request.
 
 ---
 *Developed for the Rushikesh Sakharle AI core. Stability: 100% | Persona: Online.*
