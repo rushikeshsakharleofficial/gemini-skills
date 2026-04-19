@@ -99,6 +99,11 @@ A deep-diagnostic specialist for email infrastructure and networking. Features *
 ### ⚙️ Windows & Python Specialization
 Natively optimized tools for high-performance Windows administration (`windows-admin`) and professional Python development (`python-specialist`).
 
+### 📦 VirtualBox Mastery Suite
+A complete ecosystem for expert-level virtualization management.
+*   **Deep Learn Virtual Box (`/skills/deep-learn-virtual-box`)**: A master-level reference for `VBoxManage` CLI, storage plumbing, and programmatic SDK integration (Python `pyvbox`).
+*   **VirtualBox Assistant Extension (`/extensions/vbox-assistant`)**: Automatically injects real-time VM context (status and IP addresses) into your Gemini sessions at start.
+
 ## 🛠️ Global Deployment
 Every capability in this library is **100% Portable**. All 14 skills are pre-packaged in the `dist/` folder.
 
