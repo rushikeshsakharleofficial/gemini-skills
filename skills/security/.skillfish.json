@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "security",
+  "owner": "openhands",
+  "repo": "skills",
+  "path": "skills/security",
+  "branch": "main",
+  "sha": "eeed677cd9388b3254d6db2ec589f97c06e16002",
+  "source": "manual"
+}

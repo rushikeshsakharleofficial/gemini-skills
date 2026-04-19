@@ -1,0 +1,8 @@
+{
+  "name": "meta-cognitive",
+  "version": "1.0.0",
+  "description": "Autonomous architecture for smart routing, memory, and prompt enhancement.",
+  "hooks": {
+    "SessionStart": "python hooks/session-start.py"
+  }
+}
