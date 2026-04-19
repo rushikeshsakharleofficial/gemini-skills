@@ -11,29 +11,29 @@ Follow these protocols to deploy the **Rushikesh AI Core** in your local environ
 - **Node.js**: v20.0.0 or higher.
 - **Gemini CLI**: The latest stable build (v0.40.0+ recommended).
 
-### 2. Clone the Technical Legacy
+### 2. Direct Deployment (The Elite Handshake)
+You can install any neural unit directly from this repository without cloning:
+
+```bash
+# Install the J.A.R.V.I.S. Core
+gemini skills install https://github.com/rushikeshsakharleofficial/gemini-skills.git --path skills/jarvis-core --scope user
+
+# Install the Multi-Agent Orchestrator
+gemini skills install https://github.com/rushikeshsakharleofficial/gemini-skills.git --path skills/multi-agent-orchestrator --scope user
+```
+
+### 3. Clone for Full Architectural Link (Optional)
+If you wish to link extensions like "Superpowers" or "Caveman":
 ```bash
 git clone https://github.com/rushikeshsakharleofficial/gemini-skills.git
 cd gemini-skills
-```
 
-### 3. Deploy the Neural Units (Skills)
-You can install individual skills from the `dist/` folder. To activate the primary J.A.R.V.I.S. core:
-```bash
-gemini skills install ./dist/jarvis-core.skill --scope user
-```
-*Repeat for other critical units like `multi-agent-orchestrator.skill` and `systematic-execution.skill`.*
-
-### 4. Link Architectural Extensions
-For advanced features like "Superpowers" and "Caveman" mode:
-```bash
-# Link the core superpowers extension
+# Link extensions
 cd extensions/gemini-superpowers
 gemini extensions link .
-cd ../..
 ```
 
-### 5. Initialize the Handshake
+### 4. Initialize the Handshake
 Restart your Gemini CLI and run the following command to activate the new capabilities:
 ```bash
 /skills reload
