@@ -1,0 +1,14 @@
+{
+  "name": "@google/vbox-assistant",
+  "version": "1.0.0",
+  "description": "Injects VirtualBox environment context into Gemini CLI sessions.",
+  "hooks": [
+    {
+      "name": "vbox-context-injector",
+      "event": "SessionStart",
+      "type": "command",
+      "command": "python extensions/vbox-assistant/hooks/vbox_context.py",
+      "description": "Detects running VirtualBox VMs and provides their status and IP addresses."
+    }
+  ]
+}
