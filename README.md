@@ -8,12 +8,28 @@ A consolidated repository of high-performance skills and extensions for the Gemi
 Follow the protocols specific to your operating system to deploy the **Rushikesh AI Core**.
 
 ### 1. Prerequisites (All Platforms)
-- **Node.js**: v20.0.0 or higher.
-- **npm**: (Included with Node.js)
-- **Gemini CLI**: Install globally via npm:
-  ```bash
-  npm install -g @google/gemini-cli
-  ```
+
+#### **📦 Step 1: Install Node.js & npm**
+The Rushikesh AI Core requires **Node.js v20.0.0** or higher. npm is included automatically.
+
+*   **🪟 Windows:** Download the LTS installer from [nodejs.org](https://nodejs.org/) or run:
+    ```powershell
+    winget install OpenJS.NodeJS
+    ```
+*   **🍎 macOS:** Use Homebrew:
+    ```bash
+    brew install node
+    ```
+*   **🐧 Linux (Ubuntu/Debian):**
+    ```bash
+    sudo apt update && sudo apt install -y nodejs npm
+    ```
+
+#### **🤖 Step 2: Install Gemini CLI (Exact Version)**
+The architecture is optimized for version **0.40.0-nightly.20260415.g06e7621b2**. Install it globally:
+```bash
+npm install -g @google/gemini-cli@0.40.0-nightly.20260415.g06e7621b2
+```
 
 ### 2. Platform-Specific Deployment
 
