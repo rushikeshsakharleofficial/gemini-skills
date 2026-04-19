@@ -5,36 +5,49 @@ A consolidated repository of high-performance skills and extensions for the Gemi
 
 ## 🛠️ Installation Guide
 
-Follow these protocols to deploy the **Rushikesh AI Core** in your local environment.
+Follow the protocols specific to your operating system to deploy the **Rushikesh AI Core**.
 
-### 1. Prerequisites
+### 1. Prerequisites (All Platforms)
 - **Node.js**: v20.0.0 or higher.
 - **Gemini CLI**: The latest stable build (v0.40.0+ recommended).
 
-### 2. Direct Deployment (The Elite Handshake)
-You can install any neural unit directly from this repository without cloning:
+### 2. Platform-Specific Deployment
 
-```bash
-# Install the J.A.R.V.I.S. Core
+#### **🪟 Windows (PowerShell)**
+```powershell
+# Install the J.A.R.V.I.S. Core directly
 gemini skills install https://github.com/rushikeshsakharleofficial/gemini-skills.git --path skills/jarvis-core --scope user
 
-# Install the Multi-Agent Orchestrator
-gemini skills install https://github.com/rushikeshsakharleofficial/gemini-skills.git --path skills/multi-agent-orchestrator --scope user
-```
-
-### 3. Clone for Full Architectural Link (Optional)
-If you wish to link extensions like "Superpowers" or "Caveman":
-```bash
+# Link extensions (Requires Git Bash or PowerShell)
 git clone https://github.com/rushikeshsakharleofficial/gemini-skills.git
-cd gemini-skills
-
-# Link extensions
-cd extensions/gemini-superpowers
+cd gemini-skills/extensions/gemini-superpowers
 gemini extensions link .
 ```
 
+#### **🍎 macOS & 🐧 Linux (Bash/Zsh)**
+```bash
+# Install the J.A.R.V.I.S. Core directly
+gemini skills install https://github.com/rushikeshsakharleofficial/gemini-skills.git --path skills/jarvis-core --scope user
+
+# Clone and Link Extensions
+git clone https://github.com/rushikeshsakharleofficial/gemini-skills.git
+cd gemini-skills/extensions/gemini-superpowers
+gemini extensions link .
+```
+
+### 3. Direct Deployment (The Elite Handshake)
+This method is platform-agnostic and installs neural units directly from the cloud:
+
+```bash
+# Install Multi-Agent Orchestrator
+gemini skills install https://github.com/rushikeshsakharleofficial/gemini-skills.git --path skills/multi-agent-orchestrator --scope user
+
+# Install Systematic Execution (OODA Loop)
+gemini skills install https://github.com/rushikeshsakharleofficial/gemini-skills.git --path skills/systematic-execution --scope user
+```
+
 ### 4. Initialize the Handshake
-Restart your Gemini CLI and run the following command to activate the new capabilities:
+Restart your Gemini CLI session and run:
 ```bash
 /skills reload
 ```
