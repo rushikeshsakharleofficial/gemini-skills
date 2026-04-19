@@ -6,13 +6,14 @@
 [![GitHub issues](https://img.shields.io/github/issues/rushikeshsakharleofficial/gemini-skills)](https://github.com/rushikeshsakharleofficial/gemini-skills/issues)
 [![Gemini CLI Compatibility](https://img.shields.io/badge/Gemini%20CLI-0.40.0--nightly-blue)](https://github.com/google/gemini-cli)
 
-A consolidated repository of high-performance skills and extensions for the **Gemini CLI**. This library transforms standard AI interactions into a proactive, state-aware, and natively interactive **Autonomous Engineering Environment** with specialized support for **VirtualBox**, **Python**, and **Windows Administration**.
+A consolidated repository of high-performance skills and extensions for the **Gemini CLI**. This library implements **agentic workflows** and **autonomous-ops** for the terminal, transforming standard AI interactions into a proactive, state-aware **Autonomous Engineering Environment**. Optimized for **VirtualBox automation**, **Python SDK** integration, and **self-healing infrastructure**.
 
 ## 📍 Table of Contents
 - [🛠️ Installation Guide](#️-installation-guide)
 - [🚀 The Core Breakthroughs](#-the-core-breakthroughs)
 - [🗂️ Library Architecture](#️-library-architecture)
 - [📦 VirtualBox Mastery Suite](#-virtualbox-mastery-suite)
+- [🧠 How-to: Agentic Automation](#-how-to-agentic-automation)
 - [🤝 Contributing](#-contributing)
 
 ## 🛠️ Installation Guide
@@ -115,6 +116,21 @@ Natively optimized tools for high-performance Windows administration (`windows-a
 A complete ecosystem for expert-level virtualization management.
 *   **Deep Learn Virtual Box (`/skills/deep-learn-virtual-box`)**: A master-level reference for `VBoxManage` CLI, storage plumbing, and programmatic SDK integration (Python `pyvbox`).
 *   **VirtualBox Assistant Extension (`/extensions/vbox-assistant`)**: Automatically injects real-time VM context (status and IP addresses) into your Gemini sessions at start.
+
+## 🧠 How-to: Agentic Automation
+
+### **How to automate VirtualBox with Gemini?**
+Use the `Deep-Learn-Virtual-Box` skill to provide the Gemini agent with the full `VBoxManage` command set. Once active, you can use natural language to provision VMs, e.g., *"Set up a Ubuntu 22.04 VM with 4GB RAM and a 40GB VDI disk."*
+
+### **How to fix a locked VirtualBox session with AI?**
+If a VM is stuck in "Locked" or "Being Unlocked" state, the agent can use the emergency break pattern:
+```bash
+VBoxManage startvm <VM_NAME> --type emergencystop
+```
+This is built into the `vbox-assistant` troubleshooting module.
+
+### **How to inject VM context into AI sessions?**
+Link the `vbox-assistant` extension. It uses a **Python SessionStart hook** to detect all running VMs and their IP addresses, making the agent "infrastructure-aware" before you even type your first command.
 
 ## 🛠️ Global Deployment
 Every capability in this library is **100% Portable**. All 14 skills are pre-packaged in the `dist/` folder.
