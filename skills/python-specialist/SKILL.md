@@ -1,5 +1,5 @@
 ---
-name: Python Specialist
+name: python-specialist
 description: "Python language expert -- debugging, packaging (PyInstaller/Nuitka/cx_Freeze), testing (pytest/unittest), type checking (mypy/pyright), async/concurrency patterns, performance optimization, dependency management, and cross-platform development."
 ---
 
