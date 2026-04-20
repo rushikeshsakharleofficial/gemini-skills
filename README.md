@@ -44,12 +44,22 @@ The architecture is optimized for version **0.40.0-nightly.20260415.g06e7621b2**
 npm install -g @google/gemini-cli@0.40.0-nightly.20260415.g06e7621b2
 ```
 
-### 2. Platform-Specific Deployment
+### 2. Install All Skills (Single Command)
+
+Install the **entire skill suite** in one command — no flags, no paths:
+
+```bash
+gemini skills install https://github.com/rushikeshsakharleofficial/gemini-skills.git
+```
+
+> This installs all 15 skills as a unified `gemini-skills` pack: JARVIS core, meta-cognitive agent, multi-agent orchestrator, security, SMTP, token optimizer, Python specialist, PowerShell expert, Windows admin/troubleshooting, VirtualBox, smart memory, model advisor, and systematic execution.
+
+### 3. Platform-Specific Deployment
 
 #### **🪟 Windows (PowerShell)**
 ```powershell
-# Install the J.A.R.V.I.S. Core directly
-gemini skills install https://github.com/rushikeshsakharleofficial/gemini-skills.git --path skills/jarvis-core --scope user
+# Install all skills (single command)
+gemini skills install https://github.com/rushikeshsakharleofficial/gemini-skills.git
 
 # Link extensions (Requires Git Bash or PowerShell)
 git clone https://github.com/rushikeshsakharleofficial/gemini-skills.git
@@ -61,8 +71,8 @@ gemini extensions link .
 
 #### **🍎 macOS & 🐧 Linux (Bash/Zsh)**
 ```bash
-# Install the J.A.R.V.I.S. Core directly
-gemini skills install https://github.com/rushikeshsakharleofficial/gemini-skills.git --path skills/jarvis-core --scope user
+# Install all skills (single command)
+gemini skills install https://github.com/rushikeshsakharleofficial/gemini-skills.git
 
 # Clone and Link Extensions
 git clone https://github.com/rushikeshsakharleofficial/gemini-skills.git
@@ -72,8 +82,8 @@ cd extensions/gemini-superpowers
 gemini extensions link .
 ```
 
-### 3. Direct Deployment (The Elite Handshake)
-This method is platform-agnostic and installs neural units directly from the cloud:
+### 4. Direct Deployment (Individual Skills)
+Install specific neural units directly from the cloud:
 
 ```bash
 # Install Multi-Agent Orchestrator
